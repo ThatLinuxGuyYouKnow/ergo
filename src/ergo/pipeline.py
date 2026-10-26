@@ -50,6 +50,7 @@ def process_video(src_path: str, *, model_path: str | None = None,
                annotated=os.path.relpath(ann_path, "data").replace(os.sep, "/"))
 
     t0, n, event_peak = time.time(), 0, 0.0
+    peak_ang: dict | None = None
     while True:
         ok, frame = cap.read()
         if not ok:
@@ -77,17 +78,20 @@ def process_video(src_path: str, *, model_path: str | None = None,
             event_peak = sc
             job["triggers"] += 1
         event_peak = max(event_peak, sc) if buf.active else event_peak
+        if buf.active and sc >= event_peak and sc > 0:
+            peak_ang = ang
         clip = buf.feed(frame)
         if clip:
             esc = round(max(sc, event_peak), 3)
-            r = agent.run({"score": esc, "angles": ang},
+            judge_ang = peak_ang or ang
+            r = agent.run({"score": esc, "angles": judge_ang},
                           buf.frames[-6:], clip)
-            event_peak = 0.0
+            event_peak, peak_ang = 0.0, None
             ev = {"t": round(time.time() - t0, 1),
                   "clip": os.path.relpath(clip, "data").replace(os.sep, "/"),
                   "score": esc,
-                  "trunk_deg": round(ang["trunk_flexion_deg"], 1),
-                  "H_cm": ang.get("H_cm"), "backend": res.backend,
+                  "trunk_deg": round(judge_ang["trunk_flexion_deg"], 1),
+                  "H_cm": judge_ang.get("H_cm"), "backend": res.backend,
                   "vlm_label": r["vlm"].get("label"), "vlm_conf": r["vlm"].get("confidence"),
                   "rationale": r["vlm"].get("rationale", ""),
                   "decision": r["decision"]}

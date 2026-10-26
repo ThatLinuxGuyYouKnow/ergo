@@ -19,9 +19,10 @@ python -m ergo.cli watch --source samples/safelift_demo.mp4 --threshold 0.65 --m
 # with a real ONNX pose model via cv2.dnn:
 python -m ergo.cli watch --source 0 --pose-model models/human_pose.onnx
 
-# 2. run API (passive ingest + active agent + review queue)
+# 2. run the demo UI (upload videos, watch inference live, review flagged clips)
+pip install -e .   # or: PYTHONPATH=src uvicorn ergo.api:app
 uvicorn ergo.api:app --host 0.0.0.0 --port 8000
-# open http://localhost:8000/ui  (live overlay, events, trace viewer)
+# open http://localhost:8000/ui  (Analyze → upload, Flagged clips → review, Trace → award evidence)
 # GET  /health  /events  /trace  /review
 # POST /ingest (multipart video)  POST /review/{id}/resolve
 ```

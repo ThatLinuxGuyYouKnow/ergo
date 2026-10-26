@@ -52,11 +52,14 @@ class PoseEstimator:
     def __init__(self, model_path: str | None = None, conf_thr: float = 0.35,
                  nms_thr: float = 0.45, input_size=(640, 640)):
         self.conf_thr, self.nms_thr, self.input_size = conf_thr, nms_thr, input_size
-        self.net = None
+        self.net, self.load_error = None, None
         if model_path:
-            self.net = cv2.dnn.readNetFromONNX(model_path)  # OpenCV 5 DNN
-            self.net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
-            self.net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
+            try:  # OpenCV 5 DNN path; 4.x cannot parse YOLOv8's Split node
+                self.net = cv2.dnn.readNetFromONNX(model_path)
+                self.net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
+                self.net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
+            except Exception as e:
+                self.load_error = f"{type(e).__name__}: {e}"[:200]
 
     @property
     def backend(self) -> str:
