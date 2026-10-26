@@ -1,0 +1,8 @@
+{"event": "perception", "score": 0.22, "trunk_deg": 12.4, "backend": "mock", "passive": "passive", "note": "upright walk — stay passive, log only"}
+{"event": "perception", "score": 0.81, "trunk_deg": 68.2, "backend": "dnn-onnx", "passive": "passive", "note": "threshold 0.65 crossed -> waking agent"}
+{"event": "agent_tool_call", "tool": "confirm_posture_tool", "result": {"label": "bending_risk", "confidence": 0.91, "needs_human": false, "rationale": "deep trunk flexion, straight knees, load far from body"}, "note": "Strands calls Bedrock VLM with 5 frames + OpenCV angles"}
+{"event": "agent_decision", "decision": "STORE", "vlm": {"label": "bending_risk", "confidence": 0.91}, "note": "would_ignore -> STORE. OpenCV output changed the plan: no trigger = no S3 write; trigger + VLM confirm = S3 write with metadata"}
+{"event": "perception", "score": 0.52, "trunk_deg": 38.0, "backend": "dnn-onnx", "passive": "passive", "note": "borderline -> agent -> VLM confidence 0.55 -> HUMAN_REVIEW (unsure path)"}
+{"event": "agent_decision", "decision": "HUMAN_REVIEW", "vlm": {"label": "overreaching_risk", "confidence": 0.55}, "note": "queued to /review, operator resolves confirmed/rejected"}
+{"event": "perception", "score": 0.68, "trunk_deg": 51.0, "backend": "dnn-onnx", "passive": "passive", "note": "OpenCV flag but VLM says false_alarm (crouch to tie shoe, no load)"}
+{"event": "agent_decision", "decision": "DISCARD", "vlm": {"label": "false_alarm", "confidence": 0.88}, "note": "clip dropped, miss logged to data/misses.jsonl for threshold tuning — VLM overrode OpenCV, also a decision change"}

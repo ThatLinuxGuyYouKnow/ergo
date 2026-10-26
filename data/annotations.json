@@ -1,0 +1,5014 @@
+[
+    {
+        "video": "gd_0006.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0007.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0008.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0009.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0010.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0011.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0012.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0013.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0014.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0015.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0016.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0017.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0018.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 7,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0019.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0020.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0021.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0022.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0023.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0024.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 0,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "gd_0025.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 168,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "em_0001.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 178,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "em_0002.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 178,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "em_0003.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 178,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "em_0004.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 178,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "em_0005.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 178,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0010.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0011.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0012.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 0,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0013.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0014.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0015.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "em_0006.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 178,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "em_0007.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 178,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "em_0008.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 178,
+        "action_start": {
+            "video_second": 4,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "em_0009.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 178,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0016.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0017.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0018.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0019.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0020.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ap_0021.mp4",
+        "box_width_cm": 28.7,
+        "box_height_cm": 23.4,
+        "box_depth_cm": 24.6,
+        "subject_height_cm": 174,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 72,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 25.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "jv-scrivania-sedia-001.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 196,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 79.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "jv-scrivania-sedia-002.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 196,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 79.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "jv-scrivania-sedia-003.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 196,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 79.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "jv-scrivania-sedia-004.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 196,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 79.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "jv-scrivania-terra-001.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 196,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 33.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "jv-scrivania-terra-002.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 196,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 33.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "jv-scrivania-terra-003.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 196,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 33.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "jv-scrivania-terra-004.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 196,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 33.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "md-scrivania-sedia-001.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 79.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "md-scrivania-sedia-002.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 79.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "md-scrivania-sedia-003.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 79.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "md-scrivania-sedia-004.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 79.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "md-scrivania-terra-001.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 0,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 33.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "md-scrivania-terra-002.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 33.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "md-scrivania-terra-003.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 33.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "md-scrivania-terra-004.mp4",
+        "box_width_cm": 37.0,
+        "box_height_cm": 33.0,
+        "box_depth_cm": 28.0,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 33.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 70,
+            "box_distance_horizontal_from_mid_ankles_cm": 73,
+            "hand_vertical_distance_from_floor_cm": 103.0,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30.0,
+        "subject_gender": "M",
+        "Note": "The horizontal distances are measured from the central point of the hand, rather than from the box. Box height is measured from the bottom, rather than from the centre."
+    },
+    {
+        "video": "ah_0001_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ah_0002_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ah_0003_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ah_0004_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ah_0005_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ah_0006_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ah_0007_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ah_0008_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ah_0009_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0001_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 4,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 87,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0002_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 87,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0003_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 87,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0004_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 87,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0005_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0006_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 0,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0007_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 7,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0008_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0009_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 87,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0010_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 87,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0011_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 87,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0012_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 87,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0013_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0014_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0015_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ll_0016_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 184,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": "unknown",
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": "unknown",
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "dn_0001_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 154,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 52,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "dn_0002_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 154,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 52,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "dn_0003_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 154,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 52,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "dn_0004_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 154,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 52,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "dn_0005_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 154,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 52,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "dn_0006_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 154,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 52,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "dn_0007_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 154,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 52,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "dn_0008_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 154,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 52,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "mp_0001_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 63,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "mp_0002_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 63,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "mp_0003_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 63,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "mp_0003_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 63,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "mp_0004_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 63,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "mp_0005_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 63,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "mp_0006_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 63,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "mp_0007_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 63,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "mp_0008_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 63,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "pz_0001_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 170,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "pz_0002_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 170,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "pz_0003_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 170,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "pz_0004_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 170,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "pz_0005_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 170,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "pz_0006_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 170,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "pz_0007_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 170,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "pz_0008_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 170,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "pz_0009_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 170,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "rd_0001_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 189,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 94,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 31,
+            "hand_vertical_distance_from_floor_cm": 19,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "rd_0002_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 189,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 31,
+            "hand_vertical_distance_from_floor_cm": 19,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 94,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "rd_0003_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 189,
+        "action_start": {
+            "video_second": 0,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 94,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 31,
+            "hand_vertical_distance_from_floor_cm": 19,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "rd_0004_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 189,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 31,
+            "hand_vertical_distance_from_floor_cm": 19,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 94,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "rd_0005_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 189,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 94,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 31,
+            "hand_vertical_distance_from_floor_cm": 19,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "rd_0006_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 189,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 31,
+            "hand_vertical_distance_from_floor_cm": 19,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 94,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "rd_0007_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 189,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 94,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 31,
+            "hand_vertical_distance_from_floor_cm": 19,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "rd_0008_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 189,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 31,
+            "hand_vertical_distance_from_floor_cm": 19,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 94,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "rd_0009_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 189,
+        "action_start": {
+            "video_second": 0,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 94,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 31,
+            "hand_vertical_distance_from_floor_cm": 19,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ss_0001_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 65,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 39,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ss_0002_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 39,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 65,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ss_0003_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 0,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 65,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 39,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ss_0004_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 60,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 34,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ss_0005_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 34,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 60,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ss_0006_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 60,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 34,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "ss_0007_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 34,
+            "hand_vertical_distance_from_floor_cm": 17,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 60,
+            "hand_vertical_distance_from_floor_cm": 92,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "vp_0001_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 163,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 61,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_vertical_distance_from_floor_cm": 18,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "vp_0002_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 163,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_vertical_distance_from_floor_cm": 18,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 61,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "vp_0003_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 163,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 61,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_vertical_distance_from_floor_cm": 18,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "vp_0004_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 163,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_vertical_distance_from_floor_cm": 18,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 61,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "vp_0005_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 163,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 61,
+            "hand_vertical_distance_from_floor_cm": 93,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_vertical_distance_from_floor_cm": 18,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "vp_0006_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 163,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 76,
+            "hand_vertical_distance_from_floor_cm": 91,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": 16,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "vp_0007_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 163,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": 16,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 76,
+            "hand_vertical_distance_from_floor_cm": 91,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "vp_0008_dg.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 163,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 76,
+            "hand_vertical_distance_from_floor_cm": 91,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": 16,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "vp_0009_gd.mp4",
+        "box_width_cm": 25.5,
+        "box_height_cm": 12.8,
+        "box_depth_cm": 37,
+        "subject_height_cm": 163,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 75,
+            "box_distance_horizontal_from_mid_ankles_cm": 76,
+            "hand_vertical_distance_from_floor_cm": 91,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 50,
+            "hand_vertical_distance_from_floor_cm": 16,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 26.0,
+        "subject_gender": "W",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. TERRA-CARRIOLA LAT 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 9,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "intermediate",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. TERRA-CARRIOLA LAT 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "intermediate",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. TERRA-CARRIOLA LAT 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 8,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "intermediate",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. CARRIOLA-TERRA LAT 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "intermediate",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. CARRIOLA-TERRA LAT 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "intermediate",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. CARRIOLA-TERRA LAT 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "intermediate",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. TERRA-CARRIOLA 3quarti 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. TERRA-CARRIOLA 3quarti 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. CARRIOLA-TERRA 3quarti 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "A. CARRIOLA-TERRA 3quarti 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 177,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 83,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 26,
+            "hand_distance_horizontal_from_mid_ankles_cm": 46,
+            "hand_vertical_distance_from_floor_cm": 37,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 50,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. TERRA-CARRIOLA LAT 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 9,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. TERRA-CARRIOLA LAT 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 8,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. TERRA-CARRIOLA LAT 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 8,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. TERRA-CARRIOLA LAT 4.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 8,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. CARRIOLA-TERRA LAT 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 7,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. CARRIOLA-TERRA LAT 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. CARRIOLA-TERRA LAT 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. CARRIOLA-TERRA LAT 4.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 8,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. CARRIOLA-TERRA LAT 5.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. CARRIOLA-TERRA LAT 6.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. TERRA-CARRIOLA 3quarti 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 7,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. TERRA-CARRIOLA 3quarti 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 8,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. CARRIOLA-TERRA 3quarti 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 8,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "B. CARRIOLA-TERRA 3quarti 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 173,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 29,
+            "hand_distance_horizontal_from_mid_ankles_cm": 49,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 7,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 25,
+            "hand_distance_horizontal_from_mid_ankles_cm": 45,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 31,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. TERRA-CARRIOLA LAT 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. TERRA-CARRIOLA LAT 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. TERRA-CARRIOLA LAT 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. TERRA-CARRIOLA LAT 4.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. CARRIOLA-TERRA LAT 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. CARRIOLA-TERRA LAT 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. CARRIOLA-TERRA LAT 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. CARRIOLA-TERRA LAT 4.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. TERRA-CARRIOLA 3quarti 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. TERRA-CARRIOLA 3quarti 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. CARRIOLA-TERRA 3quarti 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. CARRIOLA-TERRA 3quarti 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "C. CARRIOLA-TERRA 3quarti 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 185,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 35,
+            "hand_distance_horizontal_from_mid_ankles_cm": 55,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 36,
+            "hand_distance_horizontal_from_mid_ankles_cm": 56,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 24,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. TERRA-CARRIOLA LAT 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. TERRA-CARRIOLA LAT 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 3,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. TERRA-CARRIOLA LAT 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. CARRIOLA-TERRA LAT 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. CARRIOLA-TERRA LAT 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. CARRIOLA-TERRA LAT 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. TERRA-CARRIOLA 3quarti 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. TERRA-CARRIOLA 3quarti 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 1,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 4,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. TERRA-CARRIOLA 3quarti 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 6,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. CARRIOLA-TERRA 3quarti 1.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. CARRIOLA-TERRA 3quarti 2.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    },
+    {
+        "video": "D. CARRIOLA-TERRA 3quarti 3.mp4",
+        "box_width_cm": 40,
+        "box_height_cm": 33,
+        "box_depth_cm": 60,
+        "subject_height_cm": 165,
+        "action_start": {
+            "video_second": 2,
+            "box_height_cm": 46,
+            "box_distance_horizontal_from_mid_ankles_cm": 38,
+            "hand_distance_horizontal_from_mid_ankles_cm": 58,
+            "hand_vertical_distance_from_floor_cm": 82,
+            "angle_of_asymmetry_degree": 0
+        },
+        "action_end": {
+            "video_second": 5,
+            "box_height_cm": 0,
+            "box_distance_horizontal_from_mid_ankles_cm": 28,
+            "hand_distance_horizontal_from_mid_ankles_cm": 48,
+            "hand_vertical_distance_from_floor_cm": 36,
+            "angle_of_asymmetry_degree": 0
+        },
+        "subjective_judgment": "unknown",
+        "one_hand_lifting": false,
+        "multiple_subjects_lifting": false,
+        "subject_age": 30,
+        "subject_gender": "M",
+        "Note": "unknown"
+    }
+]

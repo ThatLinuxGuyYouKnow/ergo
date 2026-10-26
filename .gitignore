@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+data/clips/
+data/s3_mock/
+data/review/
+data/trace.jsonl
+data/misses.jsonl
+eval/report*.json
+eval/check_pose.jpg
+*.mp4
+.env

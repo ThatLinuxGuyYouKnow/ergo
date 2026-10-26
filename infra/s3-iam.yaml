@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: ergo minimal — S3 clip bucket + least-privilege role (Bedrock via existing policy)
+Resources:
+  ClipBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'ergo-clips-${AWS::AccountId}-${AWS::Region}'
+      VersioningConfiguration: {Status: Enabled}
+      LifecycleConfiguration:
+        Rules: [{Id: expire-raw, Status: Enabled, ExpirationInDays: 90}]
+  PipelineRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement: [{Effect: Allow, Principal: {Service: ec2.amazonaws.com}, Action: sts:AssumeRole}]
+      Policies:
+        - PolicyName: ergo-min
+          PolicyDocument:
+            Statement:
+              - {Effect: Allow, Action: [s3:PutObject, s3:GetObject], Resource: !Sub '${ClipBucket.Arn}/*'}
+              - {Effect: Allow, Action: [bedrock:InvokeModel, bedrock:ConverseStream, bedrock:Converse], Resource: '*'}
+Outputs:
+  Bucket: {Value: !Ref ClipBucket}
