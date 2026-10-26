@@ -86,27 +86,33 @@ class _AgentRunner:
         return {"decision": decision, "vlm": verdict, "result": result,
                 "trace_note": f"OpenCV {score} -> VLM {verdict} -> {decision}"}
 
+    @staticmethod
+    def _tool_text(tr: dict) -> str:
+        content = tr.get("content") or []
+        if isinstance(content, list):
+            return "".join(b.get("text", "") for b in content if isinstance(b, dict))
+        if isinstance(content, dict):
+            return content.get("text", "") or ""
+        return str(content)
+
     def _read_tool_outcome(self, agent_text: str):
         """Recover (verdict, decision, result) from the tools the agent fired."""
         verdict, decision, result = None, None, None
-        for msg in reversed(getattr(self.agent, "messages", []) or []):
+        for msg in getattr(self.agent, "messages", []) or []:
             for block in (msg.get("content") or []):
                 tu = block.get("toolUse") or {}
                 name = tu.get("name")
-                if name == "confirm_posture_tool":
-                    for m2 in getattr(self.agent, "messages", []):
-                        for b2 in (m2.get("content") or []):
-                            tr = b2.get("toolResult") or {}
-                            if tr.get("toolUseId") == tu.get("toolUseId"):
-                                content = tr.get("content") or {}
-                                txt = (content.get("text") or "")
-                                try:
-                                    verdict = json.loads(txt[txt.index("{"):txt.rindex("}") + 1])
-                                except Exception:
-                                    pass
-                elif name in ACTION_TOOLS:
+                if name in ACTION_TOOLS:
                     decision = ACTION_TOOLS[name]
                     result = {"tool": name, "input": tu.get("input", {})}
+                tr = block.get("toolResult") or {}
+                if tr:
+                    txt = self._tool_text(tr)
+                    if "label" in txt and "confidence" in txt:
+                        try:
+                            verdict = json.loads(txt[txt.index("{"):txt.rindex("}") + 1])
+                        except Exception:
+                            pass
         return verdict or {}, decision, result or {"note": agent_text[:200]}
 
     def _policy(self, score: float, opencv: dict, clip_path: str):

@@ -42,7 +42,11 @@ class ClipBuffer:
         os.makedirs(self.out_dir, exist_ok=True)
         path = os.path.join(self.out_dir, f"event_{int(time.time()*1000)}.mp4")
         h, w = self._frames[0].shape[:2]
-        vw = cv2.VideoWriter(path, cv2.VideoWriter_fourcc(*"mp4v"), self.fps, (w, h))
+        vw = None
+        for tag in ("avc1", "mp4v"):  # avc1 = H.264, plays in browsers
+            vw = cv2.VideoWriter(path, cv2.VideoWriter_fourcc(*tag), self.fps, (w, h))
+            if vw.isOpened():
+                break
         for f in self._frames:
             vw.write(f)
         vw.release()
