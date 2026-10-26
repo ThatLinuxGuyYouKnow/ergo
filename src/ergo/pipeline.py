@@ -95,7 +95,6 @@ def process_video(src_path: str, *, model_path: str | None = None,
                   "vlm_label": r["vlm"].get("label"), "vlm_conf": r["vlm"].get("confidence"),
                   "rationale": r["vlm"].get("rationale", ""),
                   "decision": r["decision"]}
-            ev["score"] = round(max(sc, 0.0), 3)
             job["events"].append(ev)
             job["last_event"] = ev
 
