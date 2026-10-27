@@ -1,6 +1,6 @@
-# pinned for judges: verified 2026-10-26 (see docs/BUILD.md for freeze)
+# pinned for judges (opencv 5.x needs numpy>=2; resync across image + venv)
 opencv-python==5.0.0.93
-numpy==1.26.4
+numpy==2.0.2
 strands-agents==1.62.0
 boto3==1.34.162
 botocore==1.34.162
