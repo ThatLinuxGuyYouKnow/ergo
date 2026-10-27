@@ -27,6 +27,43 @@ def _writer(path: str, fps: float, w: int, h: int):
     raise RuntimeError("no mp4 writer available")
 
 
+def _fourcc_of(path: str) -> str:
+    try:
+        import struct
+        cap = cv2.VideoCapture(path)
+        fcc = int(cap.get(cv2.CAP_PROP_FOURCC))
+        cap.release()
+        return struct.pack("<I", fcc & 0xFFFFFFFF).decode("ascii", "errors")
+    except Exception:
+        return ""
+
+
+def _ensure_browser_mp4(path: str) -> str:
+    """Transcode to browser-playable H.264 (yuv420p + faststart) unless the
+    file is already avc1. Uses imageio-ffmpeg's static binary; silently keeps
+    the original when that package is unavailable (e.g. minimal local envs).
+    atomic replace, so /files can serve the path concurrently."""
+    if _fourcc_of(path).strip("\x00").lower() == "avc1":
+        return path
+    try:
+        import subprocess
+        import imageio_ffmpeg
+        tmp = path + ".h264.mp4"
+        r = subprocess.run(
+            [imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-v", "error",
+             "-i", path, "-c:v", "libx264", "-preset", "veryfast",
+             "-crf", "23", "-pix_fmt", "yuv420p",
+             "-movflags", "+faststart", "-an", tmp],
+            capture_output=True, timeout=300)
+        if r.returncode == 0 and os.path.exists(tmp) and os.path.getsize(tmp) > 0:
+            os.replace(tmp, path)
+        elif os.path.exists(tmp):
+            os.remove(tmp)
+    except Exception:
+        pass
+    return path
+
+
 def process_video(src_path: str, *, model_path: str | None = None,
                   threshold: float = 0.65, subject_height_cm: float | None = None,
                   job: dict | None = None, out_dir: str = "data/jobs/manual",
@@ -82,13 +119,15 @@ def process_video(src_path: str, *, model_path: str | None = None,
             peak_ang = ang
         clip = buf.feed(frame)
         if clip:
+            clip = _ensure_browser_mp4(clip)
+            clip_rel = os.path.relpath(clip, "data").replace(os.sep, "/")
             esc = round(max(sc, event_peak), 3)
             judge_ang = peak_ang or ang
             r = agent.run({"score": esc, "angles": judge_ang},
-                          buf.frames[-6:], clip)
+                          buf.frames[-6:], clip_rel)
             event_peak, peak_ang = 0.0, None
             ev = {"t": round(time.time() - t0, 1),
-                  "clip": os.path.relpath(clip, "data").replace(os.sep, "/"),
+                  "clip": clip_rel,
                   "score": esc,
                   "trunk_deg": round(judge_ang["trunk_flexion_deg"], 1),
                   "H_cm": judge_ang.get("H_cm"), "backend": res.backend,
@@ -115,6 +154,7 @@ def process_video(src_path: str, *, model_path: str | None = None,
     cap.release()
     if writer is not None:
         writer.release()
+        _ensure_browser_mp4(ann_path)
     job.update(status="done", fps_live=round(n / max(time.time() - t0, 1e-6), 1))
     yield {"done": n, "total": total, "score": job.get("score_now", 0),
            "peak": job["peak"], "status": "done", "triggers": job["triggers"]}
