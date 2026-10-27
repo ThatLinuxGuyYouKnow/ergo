@@ -1,0 +1,421 @@
+openapi: 3.0.3
+info:
+  title: ergo — active-passive ergonomic observation (headless API)
+  version: 0.1.0
+  description: |
+    API-only surface (no GUI). Submit a workplace video as a job, poll for
+    completion, and collect per-event verdicts plus clip / S3 links.
+
+    Flow:
+    1. `POST /api/jobs` with multipart `file` → `{job_id, status_url, result_url}`
+    2. Poll `GET /api/jobs/{job_id}` until `status` is `done` (or `error`)
+    3. `GET /api/jobs/{job_id}/result` → annotated video URL, per-event
+       `{score, decision, clip_url, s3_uri}`, and flat `s3_links`.
+
+    Only `STORE` verdicts upload to S3 (mock VLM: score >= 0.8). `HUMAN_REVIEW`
+    lands in the local review queue; `DISCARD` is logged locally. So `s3_links`
+    is legitimately empty when nothing crossed the danger threshold — check
+    `events[].decision` / `clip_url` in that case.
+
+    Interactive docs are also served live: `/docs` (Swagger UI),
+    `/redoc`, `/openapi.json`.
+servers:
+  - url: http://localhost:8000
+    description: local dev (`uvicorn ergo.api:app --port 8000`)
+  - url: https://ergo-cv.duckdns.org
+    description: EC2 demo (behind nginx + TLS)
+tags:
+  - name: jobs
+    description: Submit videos and read back verdicts + clip/S3 links
+  - name: events
+    description: Cross-job flagged-clip feed
+  - name: system
+    description: Health and award-trace evidence
+paths:
+  /health:
+    get:
+      tags: [system]
+      summary: Health probe
+      operationId: health
+      responses:
+        '200':
+          description: server liveness + backend flags
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Health'
+  /api/jobs:
+    post:
+      tags: [jobs]
+      summary: Submit a video job
+      description: |
+        Upload a workplace video. Processing is async — poll `status_url`
+        (or `result_url`) until `status` is `done`.
+      operationId: createJob
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [file]
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: video file (mp4 preferred, <=200MB behind nginx)
+                threshold:
+                  type: number
+                  default: 0.65
+                  description: risk-score trigger threshold (0..1)
+                subject_height_cm:
+                  type: number
+                  nullable: true
+                  description: optional subject height for absolute H (cm)
+                mock_pose:
+                  type: boolean
+                  default: false
+                  description: force deterministic mock pose (CI/tests)
+              example:
+                threshold: 0.4
+      responses:
+        '202':
+          description: job accepted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobAccepted'
+              example:
+                job_id: d0b72250
+                status_url: /api/jobs/d0b72250
+                result_url: /api/jobs/d0b72250/result
+        '422':
+          description: missing/invalid upload
+    get:
+      tags: [jobs]
+      summary: List jobs
+      operationId: listJobs
+      responses:
+        '200':
+          description: in-memory job registry (single replica)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  jobs:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/JobSummary'
+  /api/jobs/{job_id}:
+    get:
+      tags: [jobs]
+      summary: Poll job status + events
+      operationId: jobStatus
+      parameters:
+        - $ref: '#/components/parameters/JobId'
+      responses:
+        '200':
+          description: live status; poll until status done|error
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/JobSummary'
+                  - type: object
+                    properties:
+                      events:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Event'
+                      result_url:
+                        type: string
+                        example: /api/jobs/d0b72250/result
+        '404':
+          $ref: '#/components/responses/UnknownJob'
+  /api/jobs/{job_id}/result:
+    get:
+      tags: [jobs]
+      summary: Final job result + S3 links
+      description: |
+        Terminal API-only view. `clip_url`/`annotated_url` are same-origin
+        `/files/...` downloads; `s3_uri` is set only on STORE verdicts.
+      operationId: jobResult
+      parameters:
+        - $ref: '#/components/parameters/JobId'
+      responses:
+        '200':
+          description: final result (also useful mid-run for partial events)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobResult'
+              example:
+                job_id: d0b72250
+                name: lift.mp4
+                status: done
+                peak: 0.437
+                n_events: 1
+                annotated_url: /files/jobs/d0b72250/annotated.mp4
+                events:
+                  - t: 12.4
+                    clip: jobs/d0b72250/event_1793074827993.mp4
+                    clip_url: /files/jobs/d0b72250/event_1793074827993.mp4
+                    score: 0.437
+                    trunk_deg: 21.6
+                    decision: DISCARD
+                    vlm_label: false_alarm
+                    vlm_conf: 0.88
+                    s3_uri: null
+                s3_links: []
+        '404':
+          $ref: '#/components/responses/UnknownJob'
+  /api/jobs/{job_id}/frame:
+    get:
+      tags: [jobs]
+      summary: Latest annotated preview frame
+      operationId: jobFrame
+      parameters:
+        - $ref: '#/components/parameters/JobId'
+      responses:
+        '200':
+          description: JPEG preview frame
+          content:
+            image/jpeg:
+              schema:
+                type: string
+                format: binary
+        '204':
+          description: no frame yet (queued job)
+  /api/events:
+    get:
+      tags: [events]
+      summary: All flagged events, highest score first
+      operationId: allEvents
+      responses:
+        '200':
+          description: cross-job event feed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  events:
+                    type: array
+                    items:
+                      allOf:
+                        - $ref: '#/components/schemas/Event'
+                        - type: object
+                          properties:
+                            job_id:
+                              type: string
+                            job_name:
+                              type: string
+                            review_id:
+                              type: string
+  /api/trace:
+    get:
+      tags: [system]
+      summary: Award-trace evidence (perception → agent → action)
+      operationId: trace
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 200
+      responses:
+        '200':
+          description: last N trace rows
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  rows:
+                    type: array
+                    items:
+                      type: object
+  /api/review:
+    get:
+      tags: [events]
+      summary: Human review queue
+      operationId: reviewQueue
+      responses:
+        '200':
+          description: pending HUMAN_REVIEW records
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  pending:
+                    type: array
+                    items:
+                      type: object
+components:
+  parameters:
+    JobId:
+      name: job_id
+      in: path
+      required: true
+      schema:
+        type: string
+      example: d0b72250
+  responses:
+    UnknownJob:
+      description: unknown job id
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+                example: unknown job
+  schemas:
+    Health:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        opencv:
+          type: string
+          example: 5.0.0
+        model:
+          type: boolean
+        mock_bedrock:
+          type: string
+          example: '1'
+        mock_s3:
+          type: string
+          example: '0'
+    JobAccepted:
+      type: object
+      required: [job_id, status_url, result_url]
+      properties:
+        job_id:
+          type: string
+        status_url:
+          type: string
+        result_url:
+          type: string
+    JobSummary:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        status:
+          type: string
+          enum: [queued, running, done, error]
+        backend:
+          type: string
+          example: yolov8
+        total:
+          type: integer
+        done:
+          type: integer
+        peak:
+          type: number
+        triggers:
+          type: integer
+        error:
+          type: string
+          nullable: true
+        annotated:
+          type: string
+          nullable: true
+        score_now:
+          type: number
+        fps_live:
+          type: number
+        threshold:
+          type: number
+        n_events:
+          type: integer
+    Event:
+      type: object
+      description: one flagged window + agent verdict
+      properties:
+        t:
+          type: number
+          description: seconds into the run when the clip closed
+        clip:
+          type: string
+          description: data-relative path
+          example: jobs/d0b72250/event_1793074827993.mp4
+        clip_url:
+          type: string
+          description: same-origin download (also playable in browsers when H.264)
+          example: /files/jobs/d0b72250/event_1793074827993.mp4
+        score:
+          type: number
+        trunk_deg:
+          type: number
+        H_cm:
+          type: number
+          nullable: true
+        backend:
+          type: string
+        vlm_label:
+          type: string
+        vlm_conf:
+          type: number
+        rationale:
+          type: string
+        decision:
+          type: string
+          enum: [STORE, HUMAN_REVIEW, DISCARD]
+        result:
+          type: object
+          description: raw tool result (STORE carries bucket/key/uri)
+        s3_uri:
+          type: string
+          nullable: true
+          description: S3 URI on STORE, else null
+          example: s3://ergo-clips-123456789012-eu-north-1/clips/abc/clip.mp4
+    JobResult:
+      type: object
+      properties:
+        job_id:
+          type: string
+        name:
+          type: string
+        status:
+          type: string
+        backend:
+          type: string
+        threshold:
+          type: number
+        progress:
+          type: object
+          properties:
+            done:
+              type: integer
+            total:
+              type: integer
+        peak:
+          type: number
+        triggers:
+          type: integer
+        n_events:
+          type: integer
+        error:
+          type: string
+          nullable: true
+        fps_live:
+          type: number
+        annotated_url:
+          type: string
+          nullable: true
+        events:
+          type: array
+          items:
+            $ref: '#/components/schemas/Event'
+        s3_links:
+          type: array
+          description: flat list of STORE S3 URIs (often empty — see description)
+          items:
+            type: string

@@ -32,7 +32,15 @@ os.makedirs(JOBS, exist_ok=True)
 for _d in ("data/review", "data/clips", "data/s3_mock"):
     os.makedirs(_d, exist_ok=True)
 
-app = FastAPI(title="ergo — active-passive ergonomic observation")
+app = FastAPI(
+    title="ergo — active-passive ergonomic observation",
+    description=(
+        "Headless API: submit a workplace video as a job, poll for completion, "
+        "and collect per-event verdicts plus S3 clip links. "
+        "No GUI required — see docs/openapi.yaml and /docs."
+    ),
+    version="0.1.0",
+)
 app.mount("/files", StaticFiles(directory="data"), name="files")
 
 _registry: dict[str, dict] = {}
@@ -49,6 +57,39 @@ def _job_summary(j: dict) -> dict:
             ("id", "name", "status", "backend", "total", "done", "peak",
              "triggers", "error", "annotated", "score_now", "fps_live",
              "threshold", "n_events")}
+
+
+def _event_public(e: dict) -> dict:
+    """Backfill derived URLs so old in-memory/file events stay API-compatible."""
+    e = dict(e)
+    if e.get("clip") and not e.get("clip_url"):
+        e["clip_url"] = f"/files/{e['clip']}"
+    res = e.get("result") or {}
+    if not e.get("s3_uri") and isinstance(res, dict) and res.get("uri"):
+        e["s3_uri"] = res["uri"]
+    return e
+
+
+def _result_view(job: dict) -> dict:
+    events = [_event_public(e) for e in job.get("events", [])]
+    s3_links = [e["s3_uri"] for e in events if e.get("s3_uri")]
+    ann = job.get("annotated")
+    return {
+        "job_id": job.get("id"),
+        "name": job.get("name"),
+        "status": job.get("status"),
+        "backend": job.get("backend"),
+        "threshold": job.get("threshold"),
+        "progress": {"done": job.get("done", 0), "total": job.get("total", 0)},
+        "peak": job.get("peak", 0.0),
+        "triggers": job.get("triggers", 0),
+        "n_events": len(events),
+        "error": job.get("error"),
+        "fps_live": job.get("fps_live"),
+        "annotated_url": f"/files/{ann}" if ann else None,
+        "events": events,
+        "s3_links": s3_links,
+    }
 
 
 def _run_job(jid: str, src: str, threshold: float, height: float | None, model: str | None):
@@ -70,7 +111,11 @@ def health():
             "mock_s3": os.getenv("ERGO_MOCK_S3", "1")}
 
 
-@app.post("/api/jobs")
+@app.post("/api/jobs", status_code=202,
+            summary="Submit a video job",
+            description="Upload a workplace video (multipart/form-data `file`). "
+                        "Returns a job_id; poll GET /api/jobs/{job_id} or "
+                        "GET /api/jobs/{job_id}/result for verdicts + S3 links.")
 async def create_job(file: UploadFile = File(...),
                      threshold: float = Form(0.65),
                      subject_height_cm: float | None = Form(None),
@@ -89,23 +134,37 @@ async def create_job(file: UploadFile = File(...),
         _registry[jid] = job
     threading.Thread(target=_run_job, args=(jid, src, threshold, subject_height_cm, model),
                      daemon=True).start()
-    return {"job_id": jid}
+    return {"job_id": jid,
+            "status_url": f"/api/jobs/{jid}",
+            "result_url": f"/api/jobs/{jid}/result"}
 
 
-@app.get("/api/jobs")
+@app.get("/api/jobs", summary="List jobs")
 def list_jobs():
     with _lock:
         return {"jobs": [_job_summary(j) for j in _registry.values()]}
 
 
-@app.get("/api/jobs/{jid}")
+@app.get("/api/jobs/{jid}", summary="Poll job status + events")
 def job_status(jid: str):
     job = _registry.get(jid)
     if not job:
         return JSONResponse({"error": "unknown job"}, 404)
     d = _job_summary(job)
-    d["events"] = job.get("events", [])
+    d["events"] = [_event_public(e) for e in job.get("events", [])]
+    d["result_url"] = f"/api/jobs/{jid}/result"
     return d
+
+
+@app.get("/api/jobs/{jid}/result", summary="Final job result + S3 links",
+         description="Terminal API-only view: one object with status, annotated "
+                     "video URL, per-event verdicts (score/decision/clip_url/s3_uri), "
+                     "and a flat s3_links array. Poll until status is done|error.")
+def job_result(jid: str):
+    job = _registry.get(jid)
+    if not job:
+        return JSONResponse({"error": "unknown job"}, 404)
+    return _result_view(job)
 
 
 @app.get("/api/jobs/{jid}/frame")
@@ -131,7 +190,8 @@ def all_events():
     with _lock:
         for j in _registry.values():
             for e in j.get("events", []):
-                ev = {"job_id": j["id"], "job_name": j.get("name"), **e}
+                ev = {"job_id": j["id"], "job_name": j.get("name"),
+                      **_event_public(e)}
                 if e.get("clip") in rev_by_clip:
                     ev["review_id"] = rev_by_clip[e["clip"]]
                 evs.append(ev)

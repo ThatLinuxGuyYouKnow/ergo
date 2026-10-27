@@ -128,12 +128,15 @@ def process_video(src_path: str, *, model_path: str | None = None,
             event_peak, peak_ang = 0.0, None
             ev = {"t": round(time.time() - t0, 1),
                   "clip": clip_rel,
+                  "clip_url": f"/files/{clip_rel}",
                   "score": esc,
                   "trunk_deg": round(judge_ang["trunk_flexion_deg"], 1),
                   "H_cm": judge_ang.get("H_cm"), "backend": res.backend,
                   "vlm_label": r["vlm"].get("label"), "vlm_conf": r["vlm"].get("confidence"),
                   "rationale": r["vlm"].get("rationale", ""),
-                  "decision": r["decision"]}
+                  "decision": r["decision"],
+                  "result": r.get("result") or {},
+                  "s3_uri": (r.get("result") or {}).get("uri")}
             job["events"].append(ev)
             job["last_event"] = ev
 
