@@ -20,9 +20,17 @@ import cv2
 
 from ergo.pipeline import process_video
 
+try:  # local .env for EC2/real-mode runs; harmless if python-dotenv absent
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:
+    pass
+
 HERE = os.path.dirname(__file__)
 JOBS = os.path.abspath("data/jobs")
 os.makedirs(JOBS, exist_ok=True)
+for _d in ("data/review", "data/clips", "data/s3_mock"):
+    os.makedirs(_d, exist_ok=True)
 
 app = FastAPI(title="ergo — active-passive ergonomic observation")
 app.mount("/files", StaticFiles(directory="data"), name="files")
@@ -165,3 +173,9 @@ def resolve(rid: str, body: ResolveBody):
 def ui():
     with open(os.path.join(HERE, "static", "app.html")) as f:
         return f.read()
+
+
+@app.get("/", include_in_schema=False)
+def root():
+    from fastapi.responses import RedirectResponse
+    return RedirectResponse(url="/ui")

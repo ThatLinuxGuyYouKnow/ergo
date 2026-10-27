@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+data/jobs/
+data/env2/
+data/env2.zip
+data/s3_mock/
+*.mp4
+eval/
+.pytest_cache/
+tests/__pycache__/
+.env

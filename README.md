@@ -30,6 +30,19 @@ uvicorn ergo.api:app --host 0.0.0.0 --port 8000
 Mock mode (`ERGO_MOCK_BEDROCK=1`, `ERGO_MOCK_S3=1`) runs with zero AWS cost.
 Real mode uses Bedrock `converse` (Claude/Nova multimodal) via Strands, S3 via boto3.
 
+## EC2 deployment (judge-live in one command)
+
+```bash
+# on an Amazon Linux 2023 instance (t3.medium+, SG opens 22 + 8000):
+rsync -avz --exclude .venv --exclude data/jobs -e "ssh -i key.pem" ./ ec2-user@<host>:~/ergo/
+ssh -i key.pem ec2-user@<host> "cd ~/ergo && bash infra/ec2-deploy.sh"
+# open http://<host>:8000/ui
+```
+
+Full guide (instance sizing, IAM role, real S3/Bedrock mode, nginx, TLS,
+troubleshooting): [`docs/DEPLOY.md`](docs/DEPLOY.md).
+Single worker only — the job registry is in-memory (`--workers 1` is baked in).
+
 ## OpenCV 5 pose model (real, downloaded)
 
 - `models/yolov8n-pose.onnx` (13.5 MB) — Ultralytics YOLOv8-nano pose,
