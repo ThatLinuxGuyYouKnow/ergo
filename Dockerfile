@@ -9,7 +9,7 @@ RUN dnf install -y python3.11 python3.11-pip mesa-libGL curl-minimal \
 WORKDIR /app
 
 COPY requirements.txt .
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN python3.11 -m pip install --no-cache-dir -r requirements.txt
 
 # Runtime code + pose weights + UI. (eval/, docs/, sample videos stay out.)
 COPY src/ src/
