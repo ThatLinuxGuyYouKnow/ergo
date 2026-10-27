@@ -2,7 +2,7 @@
 # The job registry is in-memory, so ALWAYS run exactly 1 worker.
 FROM public.ecr.aws/amazonlinux/amazonlinux:2023
 
-RUN dnf install -y python3.11 python3.11-pip mesa-libGL curl-minimal \
+RUN dnf install -y python3.11 python3.11-pip mesa-libGL curl-minimal shadow-utils \
     && dnf clean all \
     && rm -rf /var/cache/dnf
 
